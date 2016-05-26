@@ -9,6 +9,8 @@ This is a cheat sheet for working with dates, date formatters, and date componen
 //: # Today's Date
 
 let today = NSDate()
+let thisTimeTomrrow = NSDate(timeIntervalSinceNow: 86400)
+let thisTimeYesterday = NSDate(timeIntervalSinceNow: -86400)
 
 /*: 
 # Date Formatting
